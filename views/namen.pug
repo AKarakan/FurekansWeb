@@ -5,12 +5,12 @@ html(lang="de")
   body
     h1 Das sind die Daten von #{person.name}
     #container.col
-      if person.name == "unsterblich"
+      if person.eigenschaften == "unsterblich"
         p Das ist Furkan der Erlöser
       else
         p das ist nicht der erlöser
       h2 Diese person ist #{person.alter} Jahre alt.
       h2 Diese person ist #{person.geschlecht}.
-      if person.name == "unsterblich"
-        p Das ist Furkan der Erlöser
+      if person.eigenschaften == "unsterblich"
+        p Das ist Furkan der Erlöser und gottvater aller juden
       
