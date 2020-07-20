@@ -1,0 +1,16 @@
+doctype html
+html(lang="de")
+  head
+    title= person.name
+  body
+    h1 Das sind die Daten von #{person.name}
+    #container.col
+      if person.name == "unsterblich"
+        p Das ist Furkan der Erlöser
+      else
+        p das ist nicht der erlöser
+      h2 Diese person ist #{person.alter} Jahre alt.
+      h2 Diese person ist #{person.geschlecht}.
+      if person.name == "unsterblich"
+        p Das ist Furkan der Erlöser
+      

@@ -1,0 +1,19 @@
+{
+  "name": "furkansweb",
+  "version": "1.0.0",
+  "description": "Ein server für Furkan Karakan zum austoben",
+  "main": "index.js",
+  "scripts": {
+    "test": "none"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AKarakan/FurekansWeb.git"
+  },
+  "author": "Furkan Karakan, Abdurrahman Karakan",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/AKarakan/FurekansWeb/issues"
+  },
+  "homepage": "https://github.com/AKarakan/FurekansWeb#readme"
+}
